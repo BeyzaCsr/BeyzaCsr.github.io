@@ -1,0 +1,89 @@
+:root{
+    --primary:#704BBF;
+    --secondary:#482973;
+    --third:#B379D9;
+    --fourth:#0D0D0D;
+    --fifth:#BF656D;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: var(--fifth);
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 100px;
+    
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links a i{
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.titles{
+    text-align: center;
+}
+
+.main{
+    display:flex;
+    height: 50vh;
+}
+
+.menu{
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    border-right: 2px solid black;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.menu a{
+    text-decoration: none;
+}
+
+.contentHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+.contentAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    padding: 25px;
+}
+.contentProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    padding: 25px;
+}
+
+.contentProjects ul li a{
+    text-decoration: none;
+}
